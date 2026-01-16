@@ -20,6 +20,8 @@ import supabase from './supabase.svg'
 import tailwind from './tailwind.webp'
 import vscode from './vscode.webp'
 
+import AbdulTemplate from './AbdulTemplate.pdf'
+
  export const assets={
    css,
    flutter,
@@ -41,5 +43,6 @@ import vscode from './vscode.webp'
     project2,
     project3,
     project4,
-    project8
+    project8,
+    AbdulTemplate
  }
