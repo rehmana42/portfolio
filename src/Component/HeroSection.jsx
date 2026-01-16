@@ -57,9 +57,9 @@ const HeroSection = () => {
     delaySpeed: 1500,
   });
 
-  const download=()=>{
+   const download=()=>{
     const link=document.createElement("a");
-    link.href='./assets/AbdulTemplate.pdf'
+    link.href=`${assets.AbdulTemplate}`
     link.download='AbdulRehman_resume.pdf'
     link.click()
 
