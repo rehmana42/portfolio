@@ -481,7 +481,7 @@ function ServiceCard({ service, index }) {
                 backgroundColor: "#071B2C",
               }}
             >
-              <ArrowUpRight size={18} />
+              <ArrowUpRight onClick={"#contact"} size={18} />
             </motion.div>
           </div>
         </div>
